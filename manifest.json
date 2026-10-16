@@ -1,0 +1,11 @@
+{
+  "name": "Mi Menú Semanal",
+  "short_name": "Mi Menú",
+  "description": "Organizá las comidas de la semana de forma sencilla.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7f2",
+  "theme_color": "#286b3a",
+  "lang": "es-AR",
+  "icons": []
+}
