@@ -171,8 +171,8 @@ function askConfirm(title, message, action, yesLabel = "Sí, continuar") {
   $("confirmText").textContent = message;
   $("confirmYes").textContent = yesLabel;
   const dialog = $("confirmDialog");
-  const handler = (event) => {
-    if (event.submitter?.value === "yes") action();
+  const handler = () => {
+    if (dialog.returnValue === "yes") action();
     dialog.removeEventListener("close", handler);
   };
   dialog.addEventListener("close", handler);
